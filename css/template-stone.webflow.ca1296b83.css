@@ -13,7 +13,7 @@
    Start of custom Webflow CSS
    ========================================================================== */
 body {
-  padding-top: 60px;
+  padding-top: 0px;
   font-family: 'Roboto Condensed', sans-serif;
   color: #333;
   font-size: 14px;
@@ -231,9 +231,9 @@ p {
 }
 
 .section.image {
-  padding-top: 127px;
-  padding-bottom: 127px;
-  background-image: url("https://assets.website-files.com/5e457cdd6bf0d06897420d3a/5e457cdd6bf0d0f3ed420d61_ocean.jpg");
+  padding-top: 400px;
+  padding-bottom: 400px;
+  background-image: url("../img/RRTruck.jpg");
   background-position: 50% 50%;
   background-size: cover;
   background-attachment: fixed;
@@ -297,26 +297,26 @@ p {
 }
 
 .slider {
-  height: 490px;
+  height: 550px;
   background-color: transparent;
 }
 
 .slide {
-  padding-top: 80px;
-  padding-bottom: 80px;
-  background-image: url("https://assets.website-files.com/5e457cdd6bf0d06897420d3a/5e457cdd6bf0d045aa420d5e_bridge.jpg");
-  background-position: 50% 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  text-align: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-image: url("../img/Keys.jpg");
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
 }
 
 .slide._2 {
-  background-image: url("https://assets.website-files.com/5e457cdd6bf0d06897420d3a/5e457cdd6bf0d09a95420d5d_city.jpg");
+  background-image: url("../img/StockTruckWide.jpeg");
 }
 
 .slide._3 {
-  background-image: url("https://assets.website-files.com/5e457cdd6bf0d06897420d3a/5e457cdd6bf0d05bfa420d5f_town.jpg");
+  background-image: url("../img/StockTruckFleet.jpeg");
 }
 
 .process-titles {
@@ -381,6 +381,12 @@ p {
   font-family: Vollkorn, serif;
   font-size: 18px;
   font-style: italic;
+}
+
+.about {
+    margin-bottom: 0px;
+    font-size: 18px;
+    text-align: center;
 }
 
 .small-title {
